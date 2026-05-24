@@ -1,16 +1,16 @@
 {
-  "name": "fdm-mail-server",
+  "name": "mail-server",
   "version": "1.0.0",
-  "description": "IMAP email bridge for FDM aftersales system",
-  "main": "api/emails.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node api/emails.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "imap": "^0.8.19",
-    "mailparser": "^3.7.1"
+    "mailparser": "^3.6.5"
   },
   "engines": {
-    "node": "24.x"
+    "node": "20.x"
   }
 }
